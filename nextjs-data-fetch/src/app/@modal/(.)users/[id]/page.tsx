@@ -1,5 +1,4 @@
 import type { User } from "@/app/users/page";
-import Link from "next/link";
 
 type Props = {
 	params: Promise<{ id: string }>;
